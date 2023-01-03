@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+      body {
+        background-color: #e3e3e3;
+        color: #000000;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+      }
+      .contact-info {
+        margin-bottom: 20px;
+      }
+      .contact-info p {
+        margin: 0;
+      }
+      .contact-form {
+        background-color: #FFFFFF;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .contact-form input[type="submit"] {
+        background-color: #00FF00;
+        color: #FFFFFF;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">CONTACT</label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+    <section>
+      <h1>Contact Us</h1>
+      <div class="contact-info">
+        <p>Thank you for considering ABC Plastic Cleaning Agency for all of your plastic cleaning needs. If you have any questions or would like to schedule a cleaning or repair appointment, please don't hesitate to get in touch.</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@abcplasticcleaning.com</p>
+        <p>Address: 123 Main Street, Anytown USA 12345</p>
+        <p>Hours of Operation:</p>
+        <ul>
+          <li>Monday - Friday: 8:00am - 5:00pm</li>
+          <li>Saturday: 9:00am - 2:00pm</li>
+          <li>Sunday: Closed</li>
+        </ul>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Phone">
+          <textarea placeholder="Message" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div></section>
+  </body>
+</html>
